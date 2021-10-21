@@ -1,12 +1,13 @@
-import AvailableMeals from "./AvailableMeals"
-import MealsSummary from "./MealsSummary"
+import AvailableMeals from "./AvailableMeals";
+import MealsSummary from "./MealsSummary";
 
 const Meals = () => {
   return (
     <>
-      <MealsSummary/><AvailableMeals/>
+      <MealsSummary />
+      <AvailableMeals />
     </>
-  )
-}
+  );
+};
 
-export default Meals
+export default Meals;
